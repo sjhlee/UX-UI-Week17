@@ -1,74 +1,89 @@
-* {
-    box-sizing: border-box;
+*{
+  font-family:'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #ccc;
+body{
+  margin:0;
+  padding:0;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(181, 177, 214);
-    text-align: center; 
-}
-nav li {
-  display: inline-block;
-  width: 20%; 
-  margin-right: -4px; 
-}
-nav a {
-  display: block; 
-  text-decoration: none; 
+button{
+  height: 40px;
+  width:200px;
+  background-color: #904E55;
+  border-radius: 5px;
+  color:white;
+  align-items: center;
 }
 
-nav a {
-  font-family: sans-serif;
-  height: 40%; 
-  line-height: 40%; 
-  color: #fff;
+.flex-container{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
 }
-nav a:hover {
-  background-color: #005f5f;
+
+.navigation{
+  margin:0;
+  padding: 10px 16px;
+  background: #274C77;
+  color: #E7ECEF;
 }
- 
-nav a.active {
-  background-color: #eee;
-  color: #444;
-  cursor: default;
+
+a{
+  color:lightyellow;;
+  text-decoration: none;
+}
+
+a:hover{
+  color:lightpink;
+  text-decoration: underline;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.spacing{
+  margin:40px;
+}
+
+.flexcolumn{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+}
+
+.content {
+  padding:30px;
 }
 
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(181, 177, 214);
-    text-align: center; 
-}
-footer li {
-  display: inline-block;
-  width: 20%; 
-  margin-right: -4px; 
-}
-footer a {
-  display: block; 
-  text-decoration: none; 
+#contactme{
+  padding: 20px;
+  margin:0% 20%;
+  /* background-color: lightblue; */
+  border-radius: 5px;
 }
 
-footer a {
-  font-family: sans-serif;
-  height: 40%; 
-  line-height: 40%; 
-  color: #fff;
+.footer{
+  margin:0;
+  padding: 10px 16px;
+  background: #274C77;
+  color: #E7ECEF;
 }
-footer a:hover {
-  background-color: #005f5f;
+.textcenter{
+  text-align:center;
+
 }
- 
-footer a.active {
-  background-color: #eee;
-  color: #444;
-  cursor: default;
+#skills{
+  background-color:#97be9a;
+  height:50%;
+  color:black;
+  border-radius:10px;
+  widows: 30%;
+}
+#works{
+  background-color:#D1E0F0;
 }
